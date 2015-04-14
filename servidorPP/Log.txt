@@ -1,0 +1,17 @@
+10-05-2012;Abrir puerto;OK;Puerto 1088 abierto satisfactoriamente
+10-05-2012;Valida Usuario registrado en PP;OK;User no registrado en Partidos Politicos
+10-05-2012;Valida desde servPP si usuario está registrado en servRE;FAIL;Usuario no está registrado en RE
+10-05-2012;Registrar usuario desde servPP en servRE;OK;Registro Exitoso
+10-05-2012;Registrar usuario de RE en un Partido Político;OK;Registro Exitoso
+10-05-2012;Valida rut PP;FAIL;Rut ya se encuentra ingresado ==> Ya está registrado
+10-05-2012;Valida rut PP;FAIL;Rut ya se encuentra ingresado ==> Ya está registrado
+10-05-2012;Valida Usuario registrado en PP;OK;User no registrado en Partidos Politicos
+10-05-2012;Llama servPP a servRE para validar rut;FAIL;No está registrado
+10-05-2012;Valida Usuario registrado en PP;OK;User no registrado en Partidos Politicos
+10-05-2012;Llama servPP a servRE para validar rut;FAIL;No está registrado
+10-05-2012;Valida Usuario registrado en PP;OK;User no registrado en Partidos Politicos
+10-05-2012;Llama servPP a servRE para validar rut;FAIL;No está registrado
+10-05-2012;Valida Usuario registrado en PP;OK;User no registrado en Partidos Politicos
+10-05-2012;Llama servPP a servRE para validar rut;FAIL;No está registrado
+10-05-2012;Desinscripción de PP;OK;Desinscrito de PC
+10-05-2012;Cerrar puerto;OK;Puerto 1088 cerrado satisfactoriamente

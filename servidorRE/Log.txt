@@ -1,0 +1,12 @@
+10-05-2012;Abrir puerto;OK;Puerto 1099 abierto satisfactoriamente
+10-05-2012;Cerrar puerto;OK;Puerto 1099 cerrado satisfactoriamente
+10-05-2012;Abrir puerto;OK;Puerto 1099 abierto satisfactoriamente
+10-05-2012;Valida Usuario RE;OK;Usuario no esta registrado
+10-05-2012;Registra New User en RE;OK;Usuario Registrado en RE satisfactoriamente
+10-05-2012;Valida Nombre;FAIL;Nombre ya esta registrado en RE
+10-05-2012;Valida Usuario RE;OK;Usuario no esta registrado
+10-05-2012;Registra New User en RE;OK;Usuario Registrado en RE satisfactoriamente
+10-05-2012;Valida Rut;OK;Rut no está registrado
+10-05-2012;Valida Rut;OK;Rut no está registrado
+10-05-2012;Valida Rut;OK;Rut no está registrado
+10-05-2012;Valida Rut;OK;Rut no está registrado

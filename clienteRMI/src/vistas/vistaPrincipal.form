@@ -1,0 +1,661 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JFrame" name="jFrame1">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Inscribirse en los Registros Electorales"/>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="jFrame1WindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="valida_submitButton" alignment="0" pref="257" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="nombreLabel" alignment="0" pref="101" max="32767" attributes="1"/>
+                                  <Component id="comunaLabel" alignment="0" pref="101" max="32767" attributes="1"/>
+                                  <Component id="rutLabel" alignment="0" pref="101" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="comunaTextfield" max="32767" attributes="1"/>
+                                  <Component id="nombreTextfield" alignment="0" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rutTextfield" min="-2" pref="112" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="rutverifTextfield" min="-2" pref="14" max="-2" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rutLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutTextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutverifTextfield" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="nombreLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nombreTextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="comunaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comunaTextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="valida_submitButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="valida_submitButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registrar Nuevo Usuario"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="valida_submitButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rutLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rut"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rutTextfield">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nombreLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="comunaLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Comuna"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nombreTextfield">
+            </Component>
+            <Component class="javax.swing.JTextField" name="comunaTextfield">
+            </Component>
+            <Component class="javax.swing.JTextField" name="rutverifTextfield">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="escribeFileFrame">
+      <Properties>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                      <Component id="escribeFileButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="200" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="escribeFileButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="203" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="escribeFileButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="escribirenFile"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="escribeFileButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="jFrame3">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Inscribirse en los Registros Electorales eligiendo un Partido Pol&#xed;tico"/>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="jFrame3WindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="valida_submitButton1" alignment="0" pref="455" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="rutLabel1" max="32767" attributes="1"/>
+                                  <Component id="nombreLabel1" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="comunaLabel1" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="partidoLabel" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rutTextfield1" min="-2" pref="139" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="rutverifTextfield1" min="-2" pref="14" max="-2" attributes="1"/>
+                                  </Group>
+                                  <Component id="comunaTextfield1" alignment="0" pref="375" max="32767" attributes="1"/>
+                                  <Component id="nombreTextfield1" alignment="0" pref="375" max="32767" attributes="1"/>
+                                  <Component id="partidoTextfield" alignment="0" pref="375" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rutLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutTextfield1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutverifTextfield1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="nombreLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nombreTextfield1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="comunaLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comunaTextfield1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="partidoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="partidoTextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="valida_submitButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="22" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="rutverifTextfield1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nombreLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="comunaLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Comuna"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="comunaTextfield1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="nombreTextfield1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rutLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rut"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rutTextfield1">
+            </Component>
+            <Component class="javax.swing.JButton" name="valida_submitButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registrar Nuevo Usuario"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="valida_submitButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="partidoTextfield">
+            </Component>
+            <Component class="javax.swing.JLabel" name="partidoLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Partido Pol&#xed;tico"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="registro_PP_Frame">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Registro de Partido Pol&#xed;tico"/>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="registro_PP_FrameWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton1" alignment="0" pref="282" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="rutLabel5" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="partidoLabel5" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="partidoTextfield5" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rutTextfield5" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="guionLabel5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="rutverifTextfield5" min="-2" pref="19" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rutLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutTextfield5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="guionLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutverifTextfield5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="partidoLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="partidoTextfield5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="23" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="rutLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rut"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="partidoLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Partido Pol&#xed;tico"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="partidoTextfield5">
+            </Component>
+            <Component class="javax.swing.JTextField" name="rutTextfield5">
+            </Component>
+            <Component class="javax.swing.JLabel" name="guionLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rutverifTextfield5">
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Inscribirse en Partido Pol&#xed;tico"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="desinscribirFrame">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Desinscribirse de un Partido Pol&#xed;tico"/>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="desinscribirFrameWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                      <Component id="rutLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="desinscribirButton6" alignment="0" max="32767" attributes="1"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rutTextfield6" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="guionLabel6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="rutverifTextfield6" min="-2" pref="18" max="-2" attributes="0"/>
+                      <EmptySpace pref="76" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rutLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutTextfield6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="guionLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rutverifTextfield6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="desinscribirButton6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="rutLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rut"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rutTextfield6">
+            </Component>
+            <Component class="javax.swing.JLabel" name="guionLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rutverifTextfield6">
+            </Component>
+            <Component class="javax.swing.JButton" name="desinscribirButton6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Desinscribir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="desinscribirButton6ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JFileChooser" name="jFileChooser1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Cliente"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="46" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="0" min="-2" pref="393" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
+                  <Component id="cargaMasivaButton" min="-2" pref="190" max="-2" attributes="0"/>
+                  <EmptySpace pref="149" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="inscribe_REButton" alignment="0" pref="460" max="32767" attributes="1"/>
+                      <Component id="inscribe_PPButton" alignment="0" pref="460" max="32767" attributes="1"/>
+                      <Component id="inscribe_REPPButton" alignment="1" pref="460" max="32767" attributes="1"/>
+                      <Component id="desinscribe_PPButton" alignment="0" pref="460" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" pref="123" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="211" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="inscribe_REButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="inscribe_REPPButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="inscribe_PPButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="desinscribe_PPButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="cargaMasivaButton" min="-2" pref="49" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="inscribe_REButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Inscribirse en los Registros Electorales"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="inscribe_REButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="inscribe_REPPButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Inscribirse en los Registros Electorales eligiendo un Partido Pol&#xed;tico"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="inscribe_REPPButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="inscribe_PPButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Inscribirse en un Partido Pol&#xed;tico"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="inscribe_PPButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="desinscribe_PPButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Desinscribirse de un Partido Pol&#xed;tico"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="desinscribe_PPButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="ImageIcon icon = new ImageIcon(&quot;bandera.png&quot;); &#xa;jLabel3.setIcon(icon);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Rep&#xfa;blica de los Sistemas Distribuidos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="cargaMasivaButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Carga Masiva"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cargaMasivaButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

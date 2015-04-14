@@ -1,0 +1,12 @@
+170864413-3,Patricio Tqwdqwdqdoledo,Heterogeneidad,07-05-12
+324564413-2,Nicolas Soto,Escalabilidad,07-02-12
+170864413-k,Jorge Romero Firulete,Heterogeneidad,17-01-12
+670863377-0,Pedro Flores,Concurrencia,06-07-11
+270824413-9,Ivan Arenas,Transparencia,24-09-11
+12342-1,Pedro Pablo,Concurrencia,09-05-2012
+1708655-0,Patricio Toledo,Concurrencia,10-05-2012
+1708623234-k,Jorge Castro De La Barra,Transparencia,10-05-2012
+1312-k,Steve Jobs,Concurrencia,10-05-2012
+2131231-2,Peter Rock,Concurrencia,10-05-2012
+2342342-6,Michael Jackson,Transparencia,10-05-2012
+2342343-k,Pedro Reyes,Concurrencia,10-05-2012
